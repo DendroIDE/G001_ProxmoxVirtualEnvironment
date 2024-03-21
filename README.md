@@ -9,7 +9,7 @@ La **Guía 001 DendroIDE Code ** se dedica a la explicación de la instalación 
 ## Requisitos mínimos del sistema recomendado por DendroIDE Code.
 
 ### Requisitos de Hardware
-- **Procesador: ** 
+- **Procesador:**
 	* Procesador de novena generación o superior Intel o AMD con 64 bits en la unidad central de proceso.
 	* Procesador compatible con la virtualización por hardware (Intel VT-x/AMD-V) para usar KVM.
 
@@ -25,13 +25,13 @@ La **Guía 001 DendroIDE Code ** se dedica a la explicación de la instalación 
 	* Se recomienda una conexión de red estable y de alta velocidad para un rendimiento óptimo..
 
 ### Requisitos de Software
-- **Sistema Operativo: ** 
+- **Sistema Operativo:** 
 	* Proxmox VE 8.1 es un sistema operativo basado en Debian, por lo que no se requiere un sistema operativo previamente instalado.
 
-- **Hypervisor: ** 
+- **Hypervisor:** 
 	* Proxmox VE utiliza KVM (Kernel-based Virtual Machine) como hipervisor para la virtualización de máquinas.
 
-- **Navegador Web ** 
+- **Navegador Web:** 
 	* Se recomienda tener un navegador web moderno y compatible (como Google Chrome, Mozilla Firefox, o Microsoft Edge) para acceder a la interfaz de administración basada en web.
 
 #### Antes de comenzar
