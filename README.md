@@ -42,10 +42,12 @@ La **Guía de Virtual Machines 001 DendroIDE Code** se dedica a la explicación 
 
 ### Proceso de instalación de Proxmox Virtual Environment utilizando Oracle VM VirtualBox 7.0
 
-#### **Paso 1.** Navegar al sitio web oficial de [Proxmox Virtual Environment](https://www.proxmox.com/en/) para proceder a la descarga del software.
+* #### **Paso 1.**
+  Navegar al sitio web oficial de [Proxmox Virtual Environment](https://www.proxmox.com/en/) para proceder a la descarga del software.
+  
+  ![Sitio Oficial de Proxmox Virtual Environment](<src/001. Sitio de descarga oficial Proxmox VE.png>)
 
-![Sitio Oficial de Proxmox Virtual Environment](<src/001. Sitio de descarga oficial Proxmox VE.png>)
-
-#### **Paso 2.** Descargar la imagen ISO que contiene el instalador con la versión de [Proxmox VE 8.1](https://enterprise.proxmox.com/iso/proxmox-ve_8.1-2.iso).
-
-![Descarga de Proxmox VE 8.1 ISO Installer](<src/002. Descarga de la imagen ISO de Proxmox VE 8.1.png>)
+* #### **Paso 2.**
+  Descargar la imagen ISO que contiene el instalador con la versión de [Proxmox VE 8.1](https://enterprise.proxmox.com/iso/proxmox-ve_8.1-2.iso).
+  
+  ![Descarga de Proxmox VE 8.1 ISO Installer](<src/002. Descarga de la imagen ISO de Proxmox VE 8.1.png>)
