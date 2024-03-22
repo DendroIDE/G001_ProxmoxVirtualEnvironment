@@ -12,6 +12,7 @@ La **Guía de Virtual Machines 001 DendroIDE Code** se dedica a la explicación 
 - **Procesador:**
 	* Procesador de novena generación o superior Intel o AMD con 64 bits en la unidad central de proceso.
 	* Procesador con mínimo cuatro unidades centrales y núcleos de procesamiento que pueden ejecutar hasta cuatro procesos de manera simultánea o superior.
+	* Procesador con mínimo cuatro unidades centrales y núcleos de procesamiento que pueden ejecutar hasta cuatro procesos de manera simultánea o superior.
 	* Procesador compatible con la virtualización por hardware (Intel VT-x/AMD-V) para usar KVM.
 
 - **Memoria (RAM):**
