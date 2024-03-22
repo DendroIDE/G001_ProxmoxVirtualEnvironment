@@ -56,7 +56,11 @@ La **Guía de Virtual Machines 001 DendroIDE Code** se dedica a la explicación 
 * #### **Paso 03.**
   Al finalizar la descarga del instalador de Proxmox VE 8.1 contenido en la imagen ISO, procederemos a la creación de la máquina virtual que ejecutará el entorno  de virtualización de servidores de código abierto. Para ello, es necesario abrir el software de Oracle VirtualBox 7.0.
 
+<<<<<<< HEAD
   ![Oracle VirtualBox 7.0](<src/003. Software Oracle Virtual Box 7.0.png>)
+=======
+  ![Oracle VirtualBox 7.0](<src/003. Software Oracle VirtualBox 7.0.png>)
+>>>>>>> a7d3dfb2aa2be57dacd7fc24bacf173731c128cd
 
 * #### **Paso 04.**
   En el menú principal del software Oracle VirtualBox 7.0, seleccionar el submenú **Máquina**, y luego la opción **Nueva**. También funcionaría con el comando **Ctrl + N** en Windows OS, o utilizando la opción secundaria presentada en la pantalla principal definida como **Nueva**.
