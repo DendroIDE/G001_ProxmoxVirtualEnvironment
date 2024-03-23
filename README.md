@@ -130,6 +130,30 @@ La **Guía de Virtual Machines 001 DendroIDE Code** se dedica a la explicación 
   Se visualiza un resumen de la máquina virtual en creación. En caso de estar conforme con la configuración realizada y presentada, deberá ser seleccionada la opción **terminar**. Caso contrario, la opción **anterior** permitirá gestionar el cambio de cualquier configuración previa. La opción **cancelar** permite cerrar la pantalla de creación de máquina virtuales y no proceder a realizar cualquier creación o modificación en el sistema.
 
   ![alt text](<src/018. Resumen de la creación de la máquina virtual.png>)
+  
+* #### **Paso 16.**
+  En el software de Oracle VirtualBox 7.0, se visualiza la máquina virtual creada. A continuación, se procede con la configuración avanzada de la máquina virtual que alojará el sistema de Proxmox VE 8.1.
+
+  ![Visualización de la máquina virtual creada](<src/019. Visualización de la máquina virtual creada.png>)
+
+* #### **Paso 17.**
+  Seleccionar la máquina virtual creada con el nombre **Proxmox VE 8.1** o *con el nombre que haya sido asignado*, y luego seleccionar la opción de **configuración**, en donde se visualiza la pantalla de configuración con todos los detalles de la máquina virtual creada.
+
+  ![Configuración de la máquina virtual](<src/020. Configuracion de la máquina virtual.png>)
+
+  ![Pantalla de configuración de la máquina virtual](<src/021. Pantalla de configuración de la máquina virtual.png>)
+
+* #### **Paso 18.**
+  Se deberá configurar la **red** de la máquina virtual, para ello hay que seleccionar la opción **Red** en la configuración de la máquina virtual.
+
+  ![Configuración de red de la máquina virtual - Parte 1](<src/022. Opción de configuración de red.png>)
+
+  ![Configuración de red de la máquina virtual - Parte 2](<src/023. Pantalla de configuración de la red de la máquina virtual.png>)
+
+* #### **Paso 19.**
+  Es recomendable que se configure en tipo adaptador puente, debido a que en VirtualBox esa configuración de red permite que la máquina virtual se comunique directamente con la red física a la que está conectado el host. Esto significa que la máquina virtual obtiene una dirección IP directamente de la red física y puede interactuar con otros dispositivos en esa red como si fuera una máquina física. Para lo cual hay que seleccionar del menú de opciones en **Conectado a:** y escoger la opción de **Adaptador puente**.
+
+  ![Configuración de red en tipo adaptador puente](<src/024. Configuración de red en tipo adaptador puente.png>)
 
 
 
