@@ -195,6 +195,11 @@ La **Guía de Virtual Machines 001 DendroIDE Code** se dedica a la explicación 
   La captura de mouse en Oracle VM VirtualBox 7.0, es una característica que te permite "atrapar" o "capturar" el control del mouse dentro de la ventana de la máquina virtual. Cuando se activa la captura del mouse, el cursor del mouse se "encarcela" dentro de la ventana de la máquina virtual, lo que significa que no puede salir de esa ventana a menos que desactives la función de captura.
 
   > Para activar la captura de mouse en VirtualBox, generalmente solo necesitas hacer clic dentro de la ventana de la máquina virtual. Además, puedes presionar la tecla derecha Ctrl en tu teclado para activar o desactivar la captura de mouse manualmente.
+  
+  ![Tecla para desactivar la captura del mouse](<src/034. Desactivar captura de mouse.png>)
+
+* #### **Paso 26.**
+  
 
   ![Tecla para desactivar la captura del mouse](image.png)
 
