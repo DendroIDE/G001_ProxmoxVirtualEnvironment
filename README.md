@@ -153,7 +153,22 @@ La **Guía de Virtual Machines 001 DendroIDE Code** se dedica a la explicación 
 * #### **Paso 19.**
   Es recomendable que se configure en tipo adaptador puente, debido a que en VirtualBox esa configuración de red permite que la máquina virtual se comunique directamente con la red física a la que está conectado el host. Esto significa que la máquina virtual obtiene una dirección IP directamente de la red física y puede interactuar con otros dispositivos en esa red como si fuera una máquina física. Para lo cual hay que seleccionar del menú de opciones en **Conectado a:** y escoger la opción de **Adaptador puente**.
 
-  ![Configuración de red en tipo adaptador puente](<src/024. Configuración de red en tipo adaptador puente.png>)
+  ![Configuración de red en tipo adaptador puente.](<src/024. Configuración de red en tipo adaptador puente.png>)
+
+* #### **Paso 20.**
+  Al seleccionar la opción de **adaptador puente**, automáticamente se seleccionará el nombre de la tarjeta de red que se encuentre disponible.
+
+  ![Selección del adaptador de red de la máquina virtual.](<src/025. Selección nombre de adaptador de red.png>)
+
+* #### **Paso 21.**
+  Una vez se encuentre asignada la configuración de red de la máquina virtual a utilizar, seleccionar la opción **siguiente**.
+
+  ![Configuración de red de la máquina virtual.](<src/026. Configuración de red de la máquina virtual.png>)
+
+* #### **Paso 22.**
+  
+
+
 
 
 
