@@ -55,12 +55,12 @@ La **Guía de Virtual Machines 001 DendroIDE Code** se dedica a la explicación 
   ![Descarga de Proxmox VE 8.1 ISO Installer](<src/002. Descarga de la imagen ISO de Proxmox VE 8.1.png>)
 
 * #### **Paso 03.**
-  Al finalizar la descarga del instalador de Proxmox VE 8.1 contenido en la imagen ISO, procederemos a la creación de la máquina virtual que ejecutará el entorno  de virtualización de servidores de código abierto. Para ello, es necesario abrir el software de Oracle VirtualBox 7.0.
+  Al finalizar la descarga del instalador de Proxmox VE 8.1 contenido en la imagen ISO, procederemos a la creación de la máquina virtual que ejecutará el entorno  de virtualización de servidores de código abierto. Para ello, es necesario abrir el software de Oracle VM VirtualBox 7.0.
 
-  ![Oracle VirtualBox 7.0](<src/003. Software Oracle Virtual Box 7.0.png>)
+  ![Oracle VM VirtualBox 7.0](<src/003. Software Oracle Virtual Box 7.0.png>)
 
 * #### **Paso 04.**
-  En el menú principal del software Oracle VirtualBox 7.0, seleccionar el submenú **Máquina**, y luego la opción **Nueva**. También funcionaría con el comando **Ctrl + N** en Windows OS, o utilizando la opción secundaria presentada en la pantalla principal definida como **Nueva**.
+  En el menú principal del software Oracle VM VirtualBox 7.0, seleccionar el submenú **Máquina**, y luego la opción **Nueva**. También funcionaría con el comando **Ctrl + N** en Windows OS, o utilizando la opción secundaria presentada en la pantalla principal definida como **Nueva**.
   
   ![Selección opción - Nueva](<src/004. Creacion de una nueva máquina virtual.png>)
 
@@ -70,7 +70,7 @@ La **Guía de Virtual Machines 001 DendroIDE Code** se dedica a la explicación 
   ![Nombre de la máquina virtual](<src/005. Asignación del nombre de la máquina virtual.png>)
 
 * #### **Paso 06.**
-  Se debe establecer la ubicación de la máquina virtual, ésta puede estar alojada en la ruta predeterminada por el software de Oracle VirtualBox 7.0 o puede ser almacenada en una ubicación predefinida por el usuario, las únicas recomendaciomnes son que primero el almacenamiento sea fijo y que dicho almacenamiento tenga espacio suficiente parael correcto funcionamiento del sistema.
+  Se debe establecer la ubicación de la máquina virtual, ésta puede estar alojada en la ruta predeterminada por el software de Oracle VM VirtualBox 7.0 o puede ser almacenada en una ubicación predefinida por el usuario, las únicas recomendaciomnes son que primero el almacenamiento sea fijo y que dicho almacenamiento tenga espacio suficiente parael correcto funcionamiento del sistema.
 
   ![Establecer la ubicación de la máquina virtual - Paso 1](<src/006. Establecer la ubicacion de la máquina virtual.png>)
 
@@ -111,13 +111,13 @@ La **Guía de Virtual Machines 001 DendroIDE Code** se dedica a la explicación 
   ![Configuración del Hardware de la máquina virtual](<src/015. Configuración del Hardware de la máquina virtual.png>)
   
 * #### **Paso 13.**  
-  Definido como requisito mínimo de hardware, se establece un valor inicial con al menos 128 GB de espacio libre en un disco duro mecánico o SSD para la instalación del sistema operativo y almacenamiento de datos. Pero, al ser un sistema virtualizado las circunstancias **cambian**. Utilizando Oracle VirtualBox 7.0, se establecerá como parte de estudio un disco duro virtual dinámico con 128.00 GB de almacenamiento.
+  Definido como requisito mínimo de hardware, se establece un valor inicial con al menos 128 GB de espacio libre en un disco duro mecánico o SSD para la instalación del sistema operativo y almacenamiento de datos. Pero, al ser un sistema virtualizado las circunstancias **cambian**. Utilizando Oracle VM VirtualBox 7.0, se establecerá como parte de estudio un disco duro virtual dinámico con 128.00 GB de almacenamiento.
 
-    > En Oracle VirtualBox 7.0, un disco virtual es un archivo que representa el disco duro de una máquina virtual. Funciona de manera similar a un disco físico en una computadora real, pero está encapsulado dentro de un archivo en el sistema de archivos del host. Este archivo contiene toda la información y datos almacenados dentro de la máquina virtual, incluidos el sistema operativo, las aplicaciones y los archivos del usuario.
+    > En Oracle VM VirtualBox 7.0, un disco virtual es un archivo que representa el disco duro de una máquina virtual. Funciona de manera similar a un disco físico en una computadora real, pero está encapsulado dentro de un archivo en el sistema de archivos del host. Este archivo contiene toda la información y datos almacenados dentro de la máquina virtual, incluidos el sistema operativo, las aplicaciones y los archivos del usuario.
     
     > Los discos virtuales en VirtualBox también pueden ser dinámicos o fijos. Los discos dinámicos crecen según sea necesario para almacenar datos, mientras que los discos fijos reservan todo el espacio definido desde el principio, lo que puede ocupar más espacio en el disco físico pero puede ofrecer un mejor rendimiento.
 
-    > *En **resumen**, un disco virtual en Oracle VirtualBox 7.0 es un archivo que simula un disco duro físico y contiene todos los datos de una máquina virtual, permitiendo que la máquina virtual funcione como si estuviera utilizando un hardware físico real.*
+    > *En **resumen**, un disco virtual en Oracle VM VirtualBox 7.0 es un archivo que simula un disco duro físico y contiene todos los datos de una máquina virtual, permitiendo que la máquina virtual funcione como si estuviera utilizando un hardware físico real.*
     
   ![Asiganción del tipo y tamaño del disco duro de la máquina virtual](<src/016. Asignación del disco duro.png>)
   
@@ -132,7 +132,7 @@ La **Guía de Virtual Machines 001 DendroIDE Code** se dedica a la explicación 
   ![alt text](<src/018. Resumen de la creación de la máquina virtual.png>)
   
 * #### **Paso 16.**
-  En el software de Oracle VirtualBox 7.0, se visualiza la máquina virtual creada. A continuación, se procede con la configuración avanzada de la máquina virtual que alojará el sistema de Proxmox VE 8.1.
+  En el software de Oracle VM VirtualBox 7.0, se visualiza la máquina virtual creada. A continuación, se procede con la configuración avanzada de la máquina virtual que alojará el sistema de Proxmox VE 8.1.
 
   ![Visualización de la máquina virtual creada](<src/019. Visualización de la máquina virtual creada.png>)
 
@@ -166,9 +166,56 @@ La **Guía de Virtual Machines 001 DendroIDE Code** se dedica a la explicación 
   ![Configuración de red de la máquina virtual.](<src/026. Configuración de red de la máquina virtual.png>)
 
 * #### **Paso 22.**
+  Se presenta la pantalla incial del software Oracle VM VirtualBox 7.0, por lo tanto la configuración de la máquina virtual a finalizado. Para continuar con la instalación del sistema operativo hay que **marcar** e iniciar la máquina virtual establecida seleccionando la opción **iniciar**.
+
+  ![Inicio de la máquina virtual](<src/027. Iniciar la máquina virtual de manera rápida.png>)
+
+  De igual manera, la máquina virtual puede ser iniciada al ser **marcada** y luego seleccionar en la barra de herramientas del software Oracle VM VirtualBox 7.0 la opción **máquina** y escoger en la cinta de opciones **inicar** y finalmente seleccionar **inicio normal**.
+
+  ![Incio de la máquina virtual](<src/028. Iniciar la máquina virtual desde las opciones de la barra de herramientas.png>)
+
+* #### **Paso 23.**
+  Aparece la pantalla de bienvenida a Proxmox Virtual Environment 8.1 y comenzará el consumo de recursos configurados de la máquina fisica nativa.
+
+  ![Bienvenida a Proxmox VE 8.1](<src/030. Bienvenida a Proxmox VE 8.1.png>)
+
+* #### **Paso 24.**
+  Es conveniente ocultar las notificaciones en el momento de la instalación y uso de Proxmox VE 8.1.
   
+  ![alt text](<src/031. Ocultar notificaciones del software Oracle VM VirtualBox 7.0.png>)
+
+* #### **Paso 25.**
+  Si al pulsar con un clic en la pantalla de bienvenida a Proxmox Virtual Environment 8.1, y aparece un cuadro de diálogo detallando la información de Oracle VM VirtualBox 7.0 describiendo el uso del mouse, es recomendable marcar la opción **no mostrar este mensaje de nuevo**, y posteriormente seleccionar la opción **capturar**.
+
+  ![Opción de capturar el mouse en Oracle VM VirtualBox 7.0](<src/032. Información de capturar mouse en VirtualBox.png>)
+
+  ![Seleccionar opción de capturar mouse Oracle VM VirtualBox 7.0](<src/033. Seleccionar opción de capturar mouse Oracle VM VirtualBox 7.0.png>)
+
+* #### **Paso 26.**
+  La captura de mouse en Oracle VM VirtualBox 7.0, es una característica que te permite "atrapar" o "capturar" el control del mouse dentro de la ventana de la máquina virtual. Cuando se activa la captura del mouse, el cursor del mouse se "encarcela" dentro de la ventana de la máquina virtual, lo que significa que no puede salir de esa ventana a menos que desactives la función de captura.
+
+  > Para activar la captura de mouse en VirtualBox, generalmente solo necesitas hacer clic dentro de la ventana de la máquina virtual. Además, puedes presionar la tecla derecha Ctrl en tu teclado para activar o desactivar la captura de mouse manualmente.
+
+  ![Tecla para desactivar la captura del mouse](image.png)
+
   
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
