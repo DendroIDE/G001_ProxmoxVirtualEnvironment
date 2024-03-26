@@ -194,7 +194,7 @@ La **Guía de Virtual Machines 001 DendroIDE Code** se dedica a la explicación 
 * #### **Paso 26.**
   La captura de mouse en Oracle VM VirtualBox 7.0, es una característica que te permite "atrapar" o "capturar" el control del mouse dentro de la ventana de la máquina virtual. Cuando se activa la captura del mouse, el cursor del mouse se "encarcela" dentro de la ventana de la máquina virtual, lo que significa que no puede salir de esa ventana a menos que desactives la función de captura.
 
-  > Para activar la captura de mouse en VirtualBox, generalmente solo necesitas hacer clic dentro de la ventana de la máquina virtual. Además, puedes presionar la tecla derecha Ctrl en tu teclado para activar o desactivar la captura de mouse manualmente.
+  > Para activar la captura de mouse en VirtualBox, generalmente solo necesitas hacer clic dentro de la ventana de la máquina virtual. **Además, puedes presionar la tecla derecha Ctrl en tu teclado para activar o desactivar la captura de mouse manualmente.**
   
   ![Tecla para desactivar la captura del mouse](<src/034. Desactivar captura de mouse.png>)
 
@@ -222,10 +222,17 @@ La **Guía de Virtual Machines 001 DendroIDE Code** se dedica a la explicación 
 
   ![Advertencia KVM](<src/039. Advertencia KVM.png>)
 
-
 * #### **Paso 31.**
+  En pantalla se visualiza el **acuerdo de licencia para usuario final**, en resumen se define quién tiene el derecho de usar el software, cuántas instancias se pueden desplegar y cómo se puede utilizar. Para continuar se deberá desplazar hacia la parte final de la ventana y luego pulsar **I agree**.
+
+  ![Acuerdo de licencia para el usuario final - Proxmox VE 8.1](<src/040. Acuerdo de licencia para el usuario final - Proxmox VE 8.1.png>)
+
+  ![Acuerdo de licencia para el usuario final - Proxmox VE 8.1](<src/041. Acuerdo de licencia para el usuario final.png>)
+
+  ![Aceptar el acuerdo de licencia para el usuario final - Proxmox VE 8.1](<042. Aceptar el acuerdo de licencia para el usuario final - Proxmox VE 8.1.png>)
 
 * #### **Paso 32.**
+  
 
 * #### **Paso 33.**
 
