@@ -225,18 +225,120 @@ La **Guía de Virtual Machines 001 DendroIDE Code** se dedica a la explicación 
 * #### **Paso 31.**
   En pantalla se visualiza el **acuerdo de licencia para usuario final**, en resumen se define quién tiene el derecho de usar el software, cuántas instancias se pueden desplegar y cómo se puede utilizar. Para continuar se deberá desplazar hacia la parte final de la ventana y luego pulsar **I agree**.
 
-  ![Acuerdo de licencia para el usuario final - Proxmox VE 8.1](<src/040. Acuerdo de licencia para el usuario final - Proxmox VE 8.1.png>)
+  ![Acuerdo de licencia para el usuario final - Proxmox VE 8.1.](<src/040. Acuerdo de licencia para el usuario final - Proxmox VE 8.1.png>)
 
-  ![Acuerdo de licencia para el usuario final - Proxmox VE 8.1](<src/041. Acuerdo de licencia para el usuario final.png>)
-
-  ![Aceptar el acuerdo de licencia para el usuario final - Proxmox VE 8.1](<042. Aceptar el acuerdo de licencia para el usuario final - Proxmox VE 8.1.png>)
-
-* #### **Paso 32.**
+  ![Acuerdo de licencia para el usuario final - Proxmox VE 8.1.(<src/041. Acuerdo de licencia para el usuario final.png>)
   
+  ![Aceptar el acuerdo de licencia para el usuario final - Proxmox VE 8.1.](<src/042. Aceptar el acuerdo de licencia para el usuario final - Proxmox VE 8.1.png>)
+  
+* #### **Paso 32.**
+  Se debe especificar el disco duro destino de la instalación de Proxmox VE 8.1 en la máquina virtual creada. Anteriormente, en la configuración del hardware se estableció el tamaño del hard disk en 128 GB. Como solo fue creado un disco duro etonces solo se visualizará un disco de almacenamiento en la lista.
+
+  ![Selección del disco duro.](<src/043. Selección del disco duro destino de la instalación.png>)
+
+  ![Selección del disco duro.](<src/044. Selección del disco duro destino de la instalación.png>)
+
+  ![Target Hard Disk.](<src/045. Target Hard Disk.png>)
 
 * #### **Paso 33.**
+  Una vez se determine el disco duro destino de la instalación de Proxmox VE 8.1, seleccionar la opción **next**.
+
+  ![Selección target Hard Disk.](<src/046. Selección disco duro de instalación Proxmox VE.png>)
 
 * #### **Paso 34.**
+  El instalador de Proxmox VE 8.1 solicita seleccionar la ubicación y la zona horaria para la configuración del sistema.
+
+  ![Localización y zona horaria - Deplazamiento](<src/047. Localización y zona horaria - Deplazamiento.png>)
+  
+  ![Localización y zona horaria](<src/047. Localización y zona horaria.png>)
+
+* #### **Paso 35.**
+  Especificar la ubicación geográfica del servidor o de la máquina virtual. Esto puede hacerse a través de una lista de países o regiones disponibles. La ubicación seleccionada se utiliza para configurar adecuadamente la configuración regional, como el formato de fecha, hora y moneda.
+
+  ![Especificar la ubicación geográfica.](<src/048. Especificar la ubicación geográfica del servidor.png>)
+
+  En caso de la guía y a la ubicación geográfica a la que pertenece la organización DendroIDE Code, se establecerá con el **country** de **Ecuador**.
+  *(Escibir el nombre del país necesario.)*
+
+  ![Especificar la ubicación de la máquina virtual.](<src/049. Especificar el país en la ubicación de la máquina virtual.png>)
+
+* #### **Paso 36.**
+  Después de seleccionar la ubicación, se establece automáticamente una zona horaria correspondiente a la ubicación. Es fundamental asegurarse de escoger la zona horaria correcta debido a que el sistema mostrará la hora establecida y aplicará los ajustes de horario de verano e invierno arbitrareamente.
+
+  ![Especificar la zona horaria de la máquina virtual.](<src/050. Especificar la zona horaria de la máquina virtual.png>)
+
+  ![Seleccionar la zona horaria de la máquina virtual.](<src/051. Seleccionar la zona horaria de la máquina virtual.png>)
+
+* #### **Paso 37.**
+  Una vez seleccionadas la ubicación y la zona horaria, el sistema utilizará esta información para configurar la hora del sistema y otros ajustes relacionados con la localización geográfica.
+  Ahora deberá seleccionar el diseño del teclado lo cual, garantiza que las teclas produzcan los caracteres correctos cuando se presionan, lo que es crucial para la entrada de texto precisa y eficiente, especialmente durante la configuración inicial del sistema operativo.
+
+  ![Diseño del teclado de la máquina virtual.](<src/052. Diseño del teclado de la máquina virtual.png>)
+
+* #### **Paso 38.**
+  Determinar el diseño del teclado que se utiliza.
+
+  *"U.S. English (USA)"* se refiere al diseño de teclado estándar utilizado en Estados Unidos.
+
+  ![Diseño de teclado - English USA](<src/053 Diseño de teclado - English USA.png>)
+
+  *"United Kingdom (UK)"* se refiere al diseño de teclado estándar utilizado en el Reino Unido.
+
+  ![Diseño de teclado - United Kingdom](<src/054. Diseño de teclado - United Kingdom.png>)
+
+  *"Spanish (ES)"* se refiere al diseño de teclado estándar utilizado en lenguaje español (contiene la letra ñ).  
+
+  ![Diseño de teclado - Spanish](<src/055. Diseño de teclado - Español.png>)
+
+* #### **Paso 39.**
+  Una vez identificado el diseño de teclado que se utilizará para la enrada de texto en la máquina virtual, se deberá seleccionar la opción correcta.
+
+  ![Seleccionar el diseño de teclado.](<src/056. Seleccionar el diseño de teclado.png>)
+
+* #### **Paso 40.**
+  Una vez se determina la ubicación, la zona horaria y el diseño de teclado destinado a la instalación de Proxmox VE 8.1, se deberá seleccionar la opción **next**.
+
+  ![Ubicación y zona horaria de la máquina virtual.](<src/057. Configuración de la ubicación y la zona horaria.png>)
+
+* #### **Paso 41.**
+  Establecer una contraseña de administración y proporcionar una dirección de correo electrónico.
+
+  ![Contraseña del administrador y correo electrónico](<src/058. Contraseña del administrador y correo electrónico.png>)
+
+  ![Contraseña del administrador y correo electrónico](<src/059. Contraseña del administrador y correo electrónico.png>)
+
+* #### **Paso 42.**
+  Se deberá establecer una **contraseña** para la cuenta de administrador, posteriormente debe ser **confirmada**. Esta contraseña es necesaria para acceder a la interfaz web de administración de Proxmox y para realizar tareas administrativas. Es importante elegir una contraseña segura y recordarla correctamente, ya que será necesaria para acceder a la interfaz de administración en el futuro.
+
+  ![Contraseña de administración.](<src/060. Contraseña del administrador.png>)
+
+* #### **Paso 43.**
+  Se deberá proporcionar una dirección de correo electrónico. La dirección de correo electrónico puede ser utilizada para recibir notificaciones del sistema, como alertas de eventos importantes o actualizaciones de Proxmox. Proporcionar una dirección de correo electrónico válida y accesible es útil para estar informado sobre el estado y el funcionamiento de la instancia de Proxmox VE.
+
+  ![Correo electrónico para administración del sistema.](<src/061. Correo electrónico del administrador del sistema.png>)
+
+* #### **Paso 44.**
+  Es importante tener en cuenta que la contraseña de administración y la dirección de correo electrónico asociada con la cuenta de administrador son elementos clave para administrar y mantener tu instancia de Proxmox VE. Es recomendable elegir una contraseña segura y mantener la dirección de correo electrónico actualizada para recibir notificaciones importantes del sistema.
+
+  Si las contraseñas coinciden y el correo electrónico asignado es correcto se deberá seleccionar la opción **next**.
+
+  ![Configuración de la contraseña de administración y el correo electrónico](<src/062. Configuración de la contraseña de administración y el correo electrónico.png>)
+  
+
+* #### **Paso 45.**
+
+* #### **Paso 46.**
+
+
+  
+
+
+
+
+
+
+
+
   
 
   
