@@ -1,4 +1,4 @@
-# Proxmox Virtual Environment
+# Proxmox Virtual Environment (Graphical o GUI basada en web)
 
 ------------
 
@@ -156,7 +156,7 @@ La **Guía de Virtual Machines 001 DendroIDE Code** se dedica a la explicación 
   ![Configuración de red en tipo adaptador puente.](<src/024. Configuración de red en tipo adaptador puente.png>)
 
 * #### **Paso 20.**
-  Al seleccionar la opción de **adaptador puente**, automáticamente se seleccionará el nombre de la tarjeta de red que se encuentre disponible.
+  Al seleccionar la opción de **adaptador puente**, de manera automática se seleccionará el nombre de la tarjeta de red que la máquina virtual utilizará para comunicarse directamente con la red física a la que se conecta el host o máquina nativa.
 
   ![Selección del adaptador de red de la máquina virtual.](<src/025. Selección nombre de adaptador de red.png>)
 
@@ -198,11 +198,40 @@ La **Guía de Virtual Machines 001 DendroIDE Code** se dedica a la explicación 
   
   ![Tecla para desactivar la captura del mouse](<src/034. Desactivar captura de mouse.png>)
 
-* #### **Paso 26.**
+* #### **Paso 27.**
+  La ventana de ejecución de la máquina virtual dentro del software Oracle VM VirtualBox 7.0 podría verse afectada en tamaño, por lo tanto se visualiza una barra de desplazamiento (*scrollbar*) que permite deslizar la visualización de la interfaz gráfica de la máquina virtual.
+  
+  ![Inicio de instalación de Proxmox VE 8.1](<src/035. Inicio de instalación de Proxmox VE 8.1.png>)
+
+  ![Barra de desplazamiento en la interfaz de la ventana de virtualización de Proxmox VE 8.1](<src/036. Deslizamiento scrollbar de la máquina virtual.png>)
+
+* #### **Paso 28.**
+  Para iniciar con la instalación de Proxmox VE 8.1, se deberá seleccionar la opción de **Install Proxmox VE (Graphical)**, debido al uso de la guía y a que la interfaz gráfica proporciona un entorno fácil de usar con interacciones de apuntar y hacer clic. Es adecuada para los usuarios que prefieren la navegación visual y se sienten menos cómodos con la línea de comandos.
+
+  ![Instalación de Proxmox VE 8.1 (Graphical)](<src/037. Instalación de Proxmox VE 8.1 (Graphical).png>)
+
+* #### **Paso 29.**
+  Proxmox VE 8.1 lanzará automática una serie de comandos hasta aparecer una nueva pantalla de instalación, mientras se realiza la ejecución en la terminal de la máquina virtual es recomendable ocultar las notificaciones de Oracle VM VirtualBox 7.0.
+
+  ![Comandos inciales pre instalación.](<src/038. Ejecución de comandos inciales en Proxmox VE 8.1.png>)
+
+* #### **Paso 30.**
+  Aparecerá en pantalla un cuadro de diálogo mostrando la advertencia **no support for hardware-accelerated KVM virtualization detected.** Lo que quiere decir que, al intentar instalar Proxmox en Oracle VM VirtualBox 7.0 no se puede utilizar la virtualización asistida por hardware (KVM) necesaria para ejecutar Proxmox VE 8.1 de manera eficiente. Proxmox VE 8.1 es un hipervisor que utiliza KVM como una de sus tecnologías de virtualización subyacentes. Esto puede deberse a que Oracle VM VirtualBox 7.0 no es compatible con la virtualización KVM en sí misma, ya que utiliza su propia tecnología de virtualización. Por lo tanto, intentar ejecutar Proxmox VE 8.1 dentro de Oracle VM VirtualBox 7.0 puede no ser la mejor opción, ya que Proxmox VE 8.1 está diseñado para ser un hipervisor de nivel de servidor y Oracle VM VirtualBox 7.0 es más adecuado para entornos de escritorio y desarrollo.
+
+  Sin embargo, esta advertencia no necesariamente es maligna. Para continuar se debería seleccionar **Ok**
+
+  ![Advertencia KVM](<src/039. Advertencia KVM.png>)
+
+
+* #### **Paso 31.**
+
+* #### **Paso 32.**
+
+* #### **Paso 33.**
+
+* #### **Paso 34.**
   
 
-  ![Tecla para desactivar la captura del mouse](image.png)
-
   
 
 
@@ -215,11 +244,8 @@ La **Guía de Virtual Machines 001 DendroIDE Code** se dedica a la explicación 
 
 
 
-
-
-
-
-
+Recomendaciones:
+Se recomienda instalar Proxmox VE 8.1 utlizando hardware físico o en una plataforma de virtualización que admita la virtualización KVM, como VMware ESXi, KVM/QEMU en sistemas Linux o incluso Hyper-V en Windows Server. De esta manera, podrá ser aprovechado al máximo las capacidades de virtualización de Proxmox y ejecutar contenedores, y máquinas virtuales de manera eficiente.
 
 
 
