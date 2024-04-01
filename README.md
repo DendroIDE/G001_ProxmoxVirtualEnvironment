@@ -318,16 +318,27 @@ La **Guía de Virtual Machines 001 DendroIDE Code** se dedica a la explicación 
   ![Correo electrónico para administración del sistema.](<src/061. Correo electrónico del administrador del sistema.png>)
 
 * #### **Paso 44.**
-  Es importante tener en cuenta que la contraseña de administración y la dirección de correo electrónico asociada con la cuenta de administrador son elementos clave para administrar y mantener tu instancia de Proxmox VE. Es recomendable elegir una contraseña segura y mantener la dirección de correo electrónico actualizada para recibir notificaciones importantes del sistema.
+  Es importante tener en cuenta que la contraseña de administración y la dirección de correo electrónico asociada con la cuenta de administrador son elementos clave para administrar y mantener la instancia de Proxmox VE 8.1. Es recomendable elegir una contraseña segura y mantener la dirección de correo electrónico actualizada para recibir notificaciones importantes del sistema.
 
   Si las contraseñas coinciden y el correo electrónico asignado es correcto se deberá seleccionar la opción **next**.
 
   ![Configuración de la contraseña de administración y el correo electrónico](<src/062. Configuración de la contraseña de administración y el correo electrónico.png>)
-  
 
 * #### **Paso 45.**
+   El próximo paso es configurar la interfaz de red de la máquina virtual.
+   
+   ![Management Network Configuration](<src/063. Management Network Configuration.png>)
+
+   ![Management Network Configuration](<src/064. Management Network Configuration.png>)
 
 * #### **Paso 46.**
+ Durante la instalación de Proxmox VE 8.1, se derberá configurar la interfaz de red. Asegurarse de seleccionar la interfaz que se desea utilizar para la gestión de la red. Por lo general, esto será una interfaz Ethernet, como enp0s3 que es seleccionada automáticamente en caso de seguir con la guía.
+
+
+
+* #### **Paso 47.**
+
+* #### **Paso 48.**
 
 
   
