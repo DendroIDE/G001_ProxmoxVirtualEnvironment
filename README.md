@@ -227,7 +227,7 @@ La **Guía de Virtual Machines 001 DendroIDE Code** se dedica a la explicación 
 
   ![Acuerdo de licencia para el usuario final - Proxmox VE 8.1.](<src/040. Acuerdo de licencia para el usuario final - Proxmox VE 8.1.png>)
 
-  ![Acuerdo de licencia para el usuario final - Proxmox VE 8.1.(<src/041. Acuerdo de licencia para el usuario final.png>)
+  ![Acuerdo de licencia para el usuario final - Proxmox VE 8.1.](<src/041. Acuerdo de licencia para el usuario final.png>)
   
   ![Aceptar el acuerdo de licencia para el usuario final - Proxmox VE 8.1.](<src/042. Aceptar el acuerdo de licencia para el usuario final - Proxmox VE 8.1.png>)
   
@@ -329,38 +329,58 @@ La **Guía de Virtual Machines 001 DendroIDE Code** se dedica a la explicación 
    
    ![Management Network Configuration](<src/063. Management Network Configuration.png>)
 
-   ![Management Network Configuration](<src/064. Management Network Configuration.png>)
+   ![Management Network Configuration.](<src/064. Management Network Configuration.png>)
 
 * #### **Paso 46.**
- Durante la instalación de Proxmox VE 8.1, se derberá configurar la interfaz de red. Asegurarse de seleccionar la interfaz que se desea utilizar para la gestión de la red. Por lo general, esto será una interfaz Ethernet, como enp0s3 que es seleccionada automáticamente en caso de seguir con la guía.
+   Durante la instalación de Proxmox VE 8.1, se derberá configurar la interfaz de red. Asegurarse de seleccionar la interfaz que se desea utilizar para la gestión de la red. Por lo general, esto será una interfaz Ethernet, como enp0s3 que es seleccionada automáticamente en caso de seguir con la guía.
 
+   ![Especificación de la interfaz de red.](<src/065. Especificación de la interfaz de red.png>)
 
+   ![Selección de la interfaz de red.](<src/066. Selección de la interfaz de red.png>)
 
 * #### **Paso 47.**
+  Se solicitará proporcionar un nombre de host completo (Fully Qualified Domain Name o FQDN). El FQDN consta de dos partes principales: el nombre del host y el dominio al que pertenece. Un ejemplo a FQDN típico sería "servidor.dominio.com", donde "servidor" es el nombre del host y "dominio.com" es el nombre del dominio.
+
+  ![Hostname - FQDN](<src/067. Hostname - FQDN.png>)
+
+  Es importante elegir un nombre de host válido y único dentro de tu red, y que también esté en conformidad con las convenciones de nomenclatura de tu organización.
+
+  ![alt text](image.png)
+
+  
 
 * #### **Paso 48.**
+  ![alt text](image-1.png)
 
+  ![alt text](image-2.png)
 
+  ![alt text](image-3.png)
+
+  ![alt text](image-8.png)
+
+  ![alt text](image-9.png)
+
+  ![alt text](image-10.png)
+
+![alt text](image-7.png)
+
+![alt text](image-11.png)
   
+![alt text](image-14.png)
 
+![alt text](image-13.png)
 
+![alt text](image-15.png)
 
+![alt text](image-16.png)
 
+![alt text](image-17.png)
 
+![alt text](image-18.png)
 
+![alt text](image-19.png)
 
-
-  
-
-  
-
-
-
-
-
-
-
-
+![alt text](image-20.png)
 
 
 
